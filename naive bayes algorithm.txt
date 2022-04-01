@@ -1,0 +1,9 @@
+-----------NAIVE BAYES ALGORITHM FOR NLP BINARY CLASSIFICATION ------------------------------
+For training the model:
+1.Preprocess your dataset(apply stopwords removal,removing punctuation marks,stemming,lematization etc.).
+2.Create a vocaubulary of words out of your training dataset.
+3.create a table which contains a count of classwise occurence of each word present in your dictionary.
+4.perform Laplacian Smoothing and calculate the Log likelihoods of each word in your vocabulary.
+For making predictions:
+1.preprocess the tweet of which sentiment is to be predicted.
+2.calculate the log probabilities and sum it up.if the overall value is greater than zero than the tweet is positive else it is negative.
